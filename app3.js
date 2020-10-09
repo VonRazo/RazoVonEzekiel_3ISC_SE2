@@ -1,6 +1,6 @@
 function isTeenager(age) {
     let result;
-    if (age <= 13) {
+    if (age <= 19) {
       result = "You're a teenager";
     } else {
       result = "You're not a teenager";
@@ -8,4 +8,4 @@ function isTeenager(age) {
     return result;
   }
 
-  console.log(isTeenager(13));
+  console.log(isTeenager(19));
